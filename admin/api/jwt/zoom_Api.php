@@ -64,7 +64,7 @@ class Zoom_Api
     	protected function sendRequest($data)
     	{
 		//Enter_Your_Email
-		$request_url = "https://api.zoom.us/v2/users/ukwajuabbakary@gmail.com";
+		$request_url = "https://api.zoom.us/v2/users/ukwajuabbakary@gmail.com/meetings";
 		
 		$headers = array(
 			"authorization: Bearer ".$this->generateJWTKey(),
