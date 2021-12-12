@@ -220,11 +220,12 @@ $error="Something went wrong. Please try again";
             <li><a href="admin.php"><i class="fa fa-circle-o"></i> add hod</a></li>
             <li><a href="adddep.php"><i class="fa fa-circle-o"></i> add depatment</a></li>
             <li><a href="viewuse.php"><i class="fa fa-circle-o"></i> view users</a></li>
+            
           </ul>
         </li>
         
         
-        <li><a href="meeting.php"><i class="fa fa-users"></i> meeting setting up</a></li>
+        <li><a href="api/jwt/meeting.php"><i class="fa fa-users"></i> meeting setting up</a></li>
         
         
        
