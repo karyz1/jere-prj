@@ -1,3 +1,3 @@
 <?php
 
-$con=mysqli_connect('sql3.freemysqlhosting.net','sql3458272','M6H8LHQviT','sql3458272');
+$con=mysqli_connect('sql4.freemysqlhosting.net','sql4462788','HK1uc6nDDe','sql4462788');

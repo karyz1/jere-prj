@@ -30,7 +30,7 @@
     $zoom_meeting = new Zoom_Api();
 
     $data = array();
-    $data['topic'] 		= 'Interview';
+    $data['topic'] 		= 'department meeting';
     $data['start_date'] = date("Y-m-d h:i:s", strtotime('tomorrow'));
     $data['duration'] 	= 30;
     $data['type'] 		= 2;
@@ -45,7 +45,7 @@
         ?>
         <div class="card-body col-sm-12 p-relative justify-content-around">
             <div class="card p-3 shadow">
-                <?php echo (isset($interview_status))? "<div class='card shadow p-2'> $interview_status </div>" : ""; ?>
+                <?php echo (isset($departmentmeeting_status))? "<div class='card shadow p-2'> $departmentmeeting_status </div>" : ""; ?>
 
                 <?php 
         
@@ -71,7 +71,7 @@
         ?>
                 <div class="form-responsive">
                         <button onclick="openWin()" name="send_interview" class="btn btn-sm btn-outline-secondary mt-2 mb-2"><i
-                                class="far fa-paper-plane"></i>&nbsp;&nbsp;Send key to a candidate</button>
+                                class="far fa-paper-plane"></i>&nbsp;&nbsp;Send key to a hods</button>
                 </div>
                 <?php
         echo "<div class='col-sm-3'><a class='btn btn-sm btn-primary' href='". $response->join_url ."' target='_blank'>Start meeting</a></div>";
