@@ -1,3 +1,3 @@
 <?php
 
-$con=mysqli_connect('sql4.freemysqlhosting.net','sql4462788','HK1uc6nDDe','sql4462788');
+$con=mysqli_connect('localhost','id18251594_karyz','diqUFvjCr+Bcc2[Z','id18251594_meetingdb');

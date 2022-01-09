@@ -34,7 +34,7 @@ $msg=0;
                   }elseif ($role=='hod') {
                   
                     $_SESSION['id'] =$rows['id'];
-                    $_SESSION['dp_id'] =$rows['dp_id'];
+                    $_SESSION['dep_id'] =$rows['dep_id'];
                 
                  
                     header('location:hod.php');

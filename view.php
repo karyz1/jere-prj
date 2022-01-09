@@ -3,6 +3,7 @@ require('connection.php');
 
 session_start();
 $id=$_SESSION['id'];
+$dep_id=$_SESSION['dep_id'];
 
 $error=0;
 $msg=0;
@@ -15,7 +16,6 @@ $row= mysqli_fetch_assoc($result);
 $fname=$row['fname'];
 $lname=$row['lname'];
 
-$dep_id=$_SESSION['dep_id'];
 
 
 if (empty($id)) {
