@@ -1,3 +1,3 @@
 <?php
 
-$con=mysqli_connect('localhost','id18251594_karyz','diqUFvjCr+Bcc2[Z','id18251594_meetingdb');
+$con=mysqli_connect('sql305.epizy.com','epiz_30469343','karyz@12345.','epiz_30469343_orgcomf_db');
